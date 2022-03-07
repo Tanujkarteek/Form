@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <link href="app1.css" rel="stylesheet" />
+    <link rel="icon" type="image/gif" href="https://www.bernsteiner.at/wp-content/uploads/logos/Favicon.png">
+</head>
+<body>
+    <div class="container">
+        <p id="main">Thanx for filling out the form</p>
+        <p id="second">We will contact you back soon!</p>
+        <button id="butt" onclick="direct()">Main Page</button>
+        <button class="glow-on-hover">
+            <div onclick="redirect()">
+                <img src="GitHub-Mark-Light-32px.png">
+            </div>
+        </button>
+    </div>
+    <script>
+        function redirect()
+        {
+            window.open("https://github.com/Tanujkarteek")
+        }
+        function direct()
+        {
+            window.open("index.html", "_self");
+        }
+    </script>
+</body>
+</html>

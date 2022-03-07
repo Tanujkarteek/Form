@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(207, 220, 231);
+    text-align: center;
+}
+small{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(255, 255, 255);
+}
+body{
+    /*https://wallpaperheart.com/wp-content/uploads/2018/05/minimal-wallpapers-rock-climbing.jpg*/
+    background-image: url(https://wallpapercave.com/wp/wp6051115.jpg);
+    background-color: rgb(37,32,60);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+    margin:0;  
+}
+.head{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+.container{
+    min-width: 450px;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    background: rgba( 0, 0, 0, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.header{
+    background: rgba(129, 129, 129, 0.35);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10px 20px;
+}
+.form{
+    padding: 20px 40px;
+}
+
+.form-control{
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.form-control lable {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom:5px;
+    color: aqua;
+}
+.form-control input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border:2px solid #d8d1d1;
+}
+
+.form-control.success input{
+    border:3.5px solid rgb(26, 167, 26);
+}
+.form-control.error input{
+    border:3.5px solid rgb(228, 29, 22);
+}
+.form-control small{
+    position:absolute;
+    margin: 3px;
+    visibility: hidden;
+}
+button{
+    background-color: rgba(200, 55, 230, 0.575);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 1.5em;
+    color:#fff;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius:4px;
+    border:2px solid rgb(4,4,95);
+    cursor: pointer;
+}
+button:hover{
+    text-transform: uppercase;
+    background-color: rgba(0, 119, 255, 0.534);
+}
+
